@@ -1,0 +1,2 @@
+com/juliusyam/kmm_doodle/shared/BuildConfig.java
+ com.juliusyam.kmm_doodle.shared.BuildConfig

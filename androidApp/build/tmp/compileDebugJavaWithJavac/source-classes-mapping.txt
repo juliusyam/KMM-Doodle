@@ -1,0 +1,2 @@
+com/juliusyam/kmm_doodle/androidApp/BuildConfig.java
+ com.juliusyam.kmm_doodle.androidApp.BuildConfig
