@@ -2,6 +2,7 @@ import org.jetbrains.kotlin.gradle.plugin.mpp.KotlinNativeTarget
 
 plugins {
     kotlin("multiplatform")
+    kotlin("plugin.serialization") version "1.5.0"
     id("com.android.library")
 }
 
@@ -15,9 +16,16 @@ kotlin {
         }
     }
     sourceSets {
+        val ktorVersion = "1.5.4"
+
         val commonMain by getting {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-datetime:0.1.1")
+                implementation("io.ktor:ktor-client-core:$ktorVersion")
+                implementation("io.ktor:ktor-client-logging:$ktorVersion")
+                implementation("io.ktor:ktor-client-serialization:$ktorVersion")
+
+                implementation("com.github.aakira:napier:1.4.1")
             }
         }
         val commonTest by getting {
@@ -29,6 +37,8 @@ kotlin {
         val androidMain by getting {
             dependencies {
                 implementation("com.google.android.material:material:1.2.1")
+                implementation("io.ktor:ktor-client-android:$ktorVersion")
+                implementation("io.ktor:ktor-client-okhttp:$ktorVersion")
             }
         }
         val androidTest by getting {
@@ -37,7 +47,11 @@ kotlin {
                 implementation("junit:junit:4.13")
             }
         }
-        val iosMain by getting
+        val iosMain by getting {
+            dependencies {
+                implementation("io.ktor:ktor-client-ios:$ktorVersion")
+            }
+        }
         val iosTest by getting
     }
 }

@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\jyyam\\AndroidStudioProjects\\KMM_Doodle\\androidApp\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jyyam\\.gradle\\caches\\transforms-2\\files-2.1\\7a13dc3061ac3b5ddeccd04dfe1912a7\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\jyyam\\.gradle\\caches\\transforms-2\\files-2.1\\7b95a51aaaebd3a5444621178550525e\\appcompat-1.2.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\jyyam\\.gradle\\caches\\transforms-2\\files-2.1\\45f74a3f564318e660e3f50be32aa2da\\core-1.3.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\jyyam\\.gradle\\caches\\transforms-2\\files-2.1\\cfe25e7dd7660d84d838307e529f3997\\core-1.3.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
